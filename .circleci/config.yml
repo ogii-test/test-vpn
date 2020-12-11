@@ -3,5 +3,5 @@ jobs:
   build:
     macos:
       xcode: 11.4
-    step:
-      - run: env
+    steps:
+      - run: exit 1
