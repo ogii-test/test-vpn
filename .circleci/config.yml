@@ -1,0 +1,7 @@
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: 11.4
+    steps:
+      - run: env
